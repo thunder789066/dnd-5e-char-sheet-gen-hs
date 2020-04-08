@@ -1,20 +1,7 @@
 import java.util.Random;
 
-public class DnDStat {
-   // instance variables - replace the example below with your own
-    public String StatName;
-    public int Score;
-    
-   private int dice6() {
-        Random roll = new Random();
-        int r = roll.nextInt(6)+1;
-        return r;
-   }
-   public void Randomize(){
-        //roll dice three times
-        Score = dice6() + dice6() + dice6();
-   }
-   
+public class DnDStat extends Stat
+{
    public int Modifier(){
         if(1 == Score) {
             return -5;
@@ -39,5 +26,5 @@ public class DnDStat {
         } else {
             return 0;
         }
-   }
+    }
 }

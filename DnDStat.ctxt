@@ -1,8 +1,4 @@
 #BlueJ class context
 comment0.params=
-comment0.target=int\ dice6()
-comment1.params=
-comment1.target=void\ Randomize()
-comment2.params=
-comment2.target=int\ Modifier()
-numComments=3
+comment0.target=int\ Modifier()
+numComments=1

@@ -5,17 +5,6 @@ public class defenseStats
     public String ArmorSet;
     
     public int rollNum;
-    public String Shield() {
-        if (ShieldType() == 1) {
-            //1 = yes shield, say how much they got added as bonus
-            String yShield = "Character Has Shield  -   +1";
-            return yShield;
-        } else {
-            //0 = no shield
-            String nShield = "No shield  -   +0";
-            return nShield;
-        }
-    }
     
     public int ArmorClass;
     public int ShieldType() {
@@ -28,11 +17,11 @@ public class defenseStats
         }
     }
     public int ArmorType() {
-        if (ArmorSet.equals("Leather Armor")) {
+        if (ArmorSet == "Leather Armor") {
             return 3;
-        } else if (ArmorSet.equals("Chainmail Armor")) {
+        } else if (ArmorSet == "Chainmail Armor") {
             return 5;
-        } else if (ArmorSet.equals("Platemail Armor")) {
+        } else if (ArmorSet == "Platemail Armor") {
             return 7;
         } else {
             return 0;

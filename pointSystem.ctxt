@@ -3,6 +3,4 @@ comment0.params=speednum
 comment0.target=void\ setSpeed(int)
 comment1.params=
 comment1.target=int\ getSpeed()
-comment2.params=stats
-comment2.target=void\ setuphitpoints(java.util.List)
-numComments=3
+numComments=2

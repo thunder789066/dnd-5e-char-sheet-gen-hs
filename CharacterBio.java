@@ -1,5 +1,6 @@
 import java.util.Random;
-public class CharacterBio {
+public class CharacterBio
+{
     public String CharacterClass;
     public String PlayerName;
     public String Race;
@@ -9,13 +10,6 @@ public class CharacterBio {
     public static String[] ListOfClasses = { "Fighter", "Wizard", "Rogue", "Barbarian", "Bard", "Cleric", "Druid", "Mage", "Monk", "Paladin", "Ranger", "Sorcerer", "Warlock" };
     public static String[] ListOfRaces = { "Dragonborn", "Dwarf", "Eladrin", "Elf", "Gnome", "Half-elf", "Half-orc", "Halfling", "Human", "Tiefling" };
     public static String[] ListOfAlignment = { "Lawful Good", "Neutral Good", "Chaotic Good", "Lawful Neutral", "(True) Neutral", "Chaotic Neutral", "Lawful Evil", "Neutral Evil", "Chaotic Evil" };
-    
-    public void setCharacterClass(String charclass) {
-        CharacterClass = charclass;
-    }
-    public String getCharacterClass() {
-        return CharacterClass;
-    }
     
     public void RandomizeName() {
         String[] consonents = {"b","c","d","f","g","h","j","k","l","m","n","p","r","s","t","v","w","y","z"};

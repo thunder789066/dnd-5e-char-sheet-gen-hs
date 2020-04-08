@@ -1,14 +1,12 @@
 #BlueJ class context
 comment0.params=
-comment0.target=java.lang.String\ Shield()
+comment0.target=int\ ShieldType()
 comment1.params=
-comment1.target=int\ ShieldType()
+comment1.target=int\ ArmorType()
 comment2.params=
-comment2.target=int\ ArmorType()
+comment2.target=int\ roll2()
 comment3.params=
-comment3.target=int\ roll2()
+comment3.target=void\ rollRandomize()
 comment4.params=
-comment4.target=void\ rollRandomize()
-comment5.params=
-comment5.target=void\ setArmorClass()
-numComments=6
+comment4.target=void\ setArmorClass()
+numComments=5

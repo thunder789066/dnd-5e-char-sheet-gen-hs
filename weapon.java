@@ -23,9 +23,12 @@ public class weapon
         //use Strength for attack bonus
         for(int i=0; i<stats.size(); i++){
             String nameofab = stats.get(i).StatName;
-            if(nameofab.equals("Strength")){
+            if(nameofab == "Strength"){
                 Strength = stats.get(i).Modifier();
+                
                 AttackBonus = Strength;
+                
+                break;
             }
         }
     }
