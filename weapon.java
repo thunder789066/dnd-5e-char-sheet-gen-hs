@@ -4,7 +4,6 @@ public class weapon
     public String WeaponName;
     public int AttackBonus;
     
-    public int Strength;
     //weapons - club, dagger, great club, handaxe, javelin, light hammer,
     //          mace, staff, sickle, spear, sling, sword
     public void RandomizeWeapon() {
@@ -17,19 +16,6 @@ public class weapon
         String cwpn = ListOfWeapons[wpn];
         
         WeaponName = cwpn;
-    }
-    
-    public void setupweapon(List<DnDStat> stats){
-        //use Strength for attack bonus
-        for(int i=0; i<stats.size(); i++){
-            String nameofab = stats.get(i).StatName;
-            if(nameofab == "Strength"){
-                Strength = stats.get(i).Modifier();
-                
-                AttackBonus = Strength;
-                
-                break;
-            }
-        }
+        //Use the strength bonus for the attack bonus
     }
 }

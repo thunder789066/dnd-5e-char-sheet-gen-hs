@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class savingThrows implements SavingThrowsInterface
 {
     public int Strength;

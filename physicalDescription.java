@@ -1,6 +1,34 @@
 import java.util.Random;
-public class physicalDescription extends DescriptionLooks
-{    
+public class physicalDescription
+{
+    public int age;
+    public int height;
+    public int weight;
+    public String haircolor;
+    public String eyecolor;
+    public String skincolor;
+    
+    public void setage(int agenum){
+        age = agenum;
+    }
+    public int getage() {
+        return age;
+    }
+    
+    public void setheight(int heightnum){
+        height = heightnum;
+    }
+    public int getheight() {
+        return height;
+    }
+    
+    public void setweight(int weightnum){
+        weight = weightnum;
+    }
+    public int getweight() {
+        return weight;
+    }
+    
     public void RandomizeName() {
         String[] hair = {"Black","Gray","Platinum","White","Dark Blonde","Blonde","Bleach Blonde","Dark Redhead","Redhead","Light Redhead","Brunette","Auburn","Yellow","Amber","Brown","Hazel","Green","Blue","Aqua","Red","Purple","Pale Brown","Pale Blue","Pale Green","Pale Gray","Violet Red","Orange","Spring Green","Sea Green","Emerald Green"};
         String[] eye = {"Yellow","Amber","Brown","Hazel","Green","Blue","Gray","Aqua","Red","Purple","Pale Brown","Pale Blue","Pale Green","Pale Gray","Deep Blue","Violet Red","Orange","Spring Green","Sea Green","Emerald Green"};

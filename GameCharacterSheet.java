@@ -1,11 +1,11 @@
 
 /**
- * Abstract class Stat - write a description of the class here
+ * Abstract class GameCharacterSheet - write a description of the class here
  * 
  * @author (your name here)
  * @version (version number or date here)
  */
-public abstract class Stat
+public abstract class GameCharacterSheet
 {
     // instance variables - replace the example below with your own
     private int x;
