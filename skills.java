@@ -31,7 +31,7 @@ public class skills implements SkillsInterface
         // setup Acrobatics
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Dexterity"){
+            if(name.equals("Dexterity")){
                 Acrobatics = stats.get(i).Modifier();
                 if(skillset1 == "Acrobatics"){
                     Acrobatics += 2;
@@ -51,7 +51,7 @@ public class skills implements SkillsInterface
         // setup Animal Handling
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Wisdom"){
+            if(name.equals("Wisdom")){
                 AnimalHandling = stats.get(i).Modifier();
                 if(skillset1 == "Animal Handling"){
                     AnimalHandling += 2;
@@ -71,7 +71,7 @@ public class skills implements SkillsInterface
         // setup Arcana
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Intelligence"){
+            if(name.equals("Intelligence")){
                 Arcana = stats.get(i).Modifier();
                 if(skillset1 == "Arcana"){
                     Arcana += 2;
@@ -91,7 +91,7 @@ public class skills implements SkillsInterface
          // setup Athletics
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Strength"){
+            if(name.equals("Strength")){
                 Athletics = stats.get(i).Modifier();
                 if(skillset1 == "Athletics"){
                     Athletics += 2;
@@ -111,7 +111,7 @@ public class skills implements SkillsInterface
          // setup Deception
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Charisma"){
+            if(name.equals("Charisma")){
                 Deception = stats.get(i).Modifier();
                 if(skillset1 == "Deception"){
                     Deception += 2;
@@ -131,7 +131,7 @@ public class skills implements SkillsInterface
          // setup History
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Intelligence"){
+            if(name.equals("Intelligence")){
                 History = stats.get(i).Modifier();
                 if(skillset1 == "History"){
                     History += 2;
@@ -151,7 +151,7 @@ public class skills implements SkillsInterface
          // setup Insight
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Wisdom"){
+            if(name.equals("Wisdom")){
                 Insight = stats.get(i).Modifier();
                 if(skillset1 == "Insight"){
                     Insight += 2;
@@ -171,7 +171,7 @@ public class skills implements SkillsInterface
          // setup Intimidation
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Charisma"){
+            if(name.equals("Charisma")){
                 Intimidation = stats.get(i).Modifier();
                 if(skillset1 == "Intimidation"){
                     Intimidation += 2;
@@ -191,7 +191,7 @@ public class skills implements SkillsInterface
          // setup Investigation
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Intelligence"){
+            if(name.equals("Intelligence")){
                 Investigation = stats.get(i).Modifier();
                 if(skillset1 == "Investigation"){
                     Investigation += 2;
@@ -211,7 +211,7 @@ public class skills implements SkillsInterface
          // setup Medicine
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Wisdom"){
+            if(name.equals("Wisdom")){
                 Medicine = stats.get(i).Modifier();
                 if(skillset1 == "Medicine"){
                     Medicine += 2;
@@ -231,7 +231,7 @@ public class skills implements SkillsInterface
          // setup Nature
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Intelligence"){
+            if(name.equals("Intelligence")){
                 Nature = stats.get(i).Modifier();
                 if(skillset1 == "Nature"){
                     Nature += 2;
@@ -251,7 +251,7 @@ public class skills implements SkillsInterface
          // setup Perception
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Wisdom"){
+            if(name.equals("Wisdom")){
                 Perception = stats.get(i).Modifier();
                 if(skillset1 == "Perception"){
                     Perception += 2;
@@ -271,7 +271,7 @@ public class skills implements SkillsInterface
          // setup Performance
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Charisma"){
+            if(name.equals("Charisma")){
                 Performance = stats.get(i).Modifier();
                 if(skillset1 == "Performance"){
                     Performance += 2;
@@ -291,7 +291,7 @@ public class skills implements SkillsInterface
          // setup Persuasion
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Charisma"){
+            if(name.equals("Charisma")){
                 Persuasion = stats.get(i).Modifier();
                 if(skillset1 == "Persuasion"){
                     Persuasion += 2;
@@ -311,7 +311,7 @@ public class skills implements SkillsInterface
          // setup Religion
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Intelligence"){
+            if(name.equals("Intelligence")){
                 Religion = stats.get(i).Modifier();
                 if(skillset1 == "Religion"){
                     Religion += 2;
@@ -331,7 +331,7 @@ public class skills implements SkillsInterface
          // setup Sleight Of Hand
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Dexterity"){
+            if(name.equals("Dexterity")){
                 SleightOfHand = stats.get(i).Modifier();
                 if(skillset1 == "Sleight Of Hand"){
                     SleightOfHand += 2;
@@ -351,7 +351,7 @@ public class skills implements SkillsInterface
          // setup Stealth
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Dexterity"){
+            if(name.equals("Dexterity")){
                 Stealth = stats.get(i).Modifier();
                 if(skillset1 == "Stealth"){
                     Stealth += 2;
@@ -371,7 +371,7 @@ public class skills implements SkillsInterface
          // setup Survival
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Wisdom"){
+            if(name.equals("Wisdom")){
                 Survival = stats.get(i).Modifier();
                 if(skillset1 == "Survival"){
                     Survival += 2;

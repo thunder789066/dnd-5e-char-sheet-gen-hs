@@ -1,5 +1,7 @@
+import java.util.*;
 
 public interface SavingThrowsInterface
 {
-    //code also goes here hoorayness
+    /* This sets up the saving throws from stats */
+    public void setupSavingThrows(List<DnDStat> stats);
 }

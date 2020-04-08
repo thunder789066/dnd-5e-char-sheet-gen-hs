@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class savingThrows implements SavingThrowsInterface
 {
     public int Strength;
@@ -16,12 +17,12 @@ public class savingThrows implements SavingThrowsInterface
         //setup Strength
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Strength"){
+            if(name.equals("Strength")){
                 Strength = stats.get(i).Modifier();
-                if(firstchoice == "Strength"){
+                if(firstchoice.equals("Strength")){
                     Strength += 2;
                 }
-                if(secondchoice == "Strength"){
+                if(secondchoice.equals("Strength")){
                     Strength += 2;
                 }
                 break;
@@ -30,12 +31,12 @@ public class savingThrows implements SavingThrowsInterface
         //setup Dexterity
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Dexterity"){
+            if(name.equals("Dexterity")){
                 Dexterity = stats.get(i).Modifier();
-                if(firstchoice == "Dexterity"){
+                if(firstchoice.equals("Dexterity")){
                     Dexterity += 2;
                 }
-                if(secondchoice == "Dexterity"){
+                if(secondchoice.equals("Dexterity")){
                     Dexterity += 2;
                 }
                 break;
@@ -44,12 +45,12 @@ public class savingThrows implements SavingThrowsInterface
         //setup Constitution
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Constitution"){
+            if(name.equals("Constitution")){
                 Constitution = stats.get(i).Modifier();
-                if(firstchoice == "Constitution"){
+                if(firstchoice.equals("Constitution")){
                     Constitution += 2;
                 }
-                if(secondchoice == "Constitution"){
+                if(secondchoice.equals("Constitution")){
                     Constitution += 2;
                 }
                 break;
@@ -58,12 +59,12 @@ public class savingThrows implements SavingThrowsInterface
         //setup Intelligence
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Intelligence"){
+            if(name.equals("Intelligence")){
                 Intelligence = stats.get(i).Modifier();
-                if(firstchoice == "Intelligence"){
+                if(firstchoice.equals("Intelligence")){
                     Intelligence += 2;
                 }
-                if(secondchoice == "Intelligence"){
+                if(secondchoice.equals("Intelligence")){
                     Intelligence += 2;
                 }
                 break;
@@ -72,12 +73,12 @@ public class savingThrows implements SavingThrowsInterface
         //setup Wisdom
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Wisdom"){
+            if(name.equals("Wisdom")){
                 Wisdom = stats.get(i).Modifier();
-                if(firstchoice == "Wisdom"){
+                if(firstchoice.equals("Wisdom")){
                     Wisdom += 2;
                 }
-                if(secondchoice == "Wisdom"){
+                if(secondchoice.equals("Wisdom")){
                     Wisdom += 2;
                 }
                 break;
@@ -86,12 +87,12 @@ public class savingThrows implements SavingThrowsInterface
         //setup Charisma
         for(int i=0; i<stats.size(); i++){
             String name = stats.get(i).StatName;
-            if(name == "Charisma"){
+            if(name.equals("Charisma")){
                 Charisma = stats.get(i).Modifier();
-                if(firstchoice == "Charisma"){
+                if(firstchoice.equals("Charisma")){
                     Charisma += 2;
                 }
-                if(secondchoice == "Charisma"){
+                if(secondchoice.equals("Charisma")){
                     Charisma += 2;
                 }
                 break;

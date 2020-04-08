@@ -1,2 +1,5 @@
 #BlueJ class context
-numComments=0
+comment0.params=stats
+comment0.target=void\ setupSkills(java.util.List)
+comment0.text=Sets\ up\ the\ skills\ from\ the\ stats\ depending\ on\ abilities
+numComments=1

@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.params=
 comment0.target=void\ RandomizeWeapon()
-numComments=1
+comment1.params=stats
+comment1.target=void\ setupweapon(java.util.List)
+numComments=2

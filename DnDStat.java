@@ -2,9 +2,7 @@ import java.util.Random;
 
 public class DnDStat extends Stat
 {
-    public String StatName;
-    public int Score;
-    public int Modifier(){
+   public int Modifier(){
         if(1 == Score) {
             return -5;
         } else if(2 <= Score && Score <= 3){
@@ -28,16 +26,5 @@ public class DnDStat extends Stat
         } else {
             return 0;
         }
-    }
-    
-    private int dice6() {
-        Random roll = new Random();
-        int r = roll.nextInt(6)+1;
-        return r;
-    }
-    
-    public void Randomize(){
-        //roll dice three times
-        Score = dice6() + dice6() + dice6();
     }
 }

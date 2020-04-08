@@ -1,6 +1,5 @@
 import java.util.*;
  public class pointSystem {
-    public int ArmorClass;
     public int Initiative;
     public int HitPoints;
     public int Speed;
@@ -22,4 +21,6 @@ import java.util.*;
     // d8 - cleric, druid, monk, warlock, ranger
     // d6 - rogue, bard
     // d4 - wizard, mage, sorcerer
+    //   hitpoints = d(#) + ConModifier
+    //   initiative = d(#) + DexModifier
 }

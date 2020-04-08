@@ -1,16 +1,4 @@
 #BlueJ class context
-comment0.params=agenum
-comment0.target=void\ setage(int)
-comment1.params=
-comment1.target=int\ getage()
-comment2.params=heightnum
-comment2.target=void\ setheight(int)
-comment3.params=
-comment3.target=int\ getheight()
-comment4.params=weightnum
-comment4.target=void\ setweight(int)
-comment5.params=
-comment5.target=int\ getweight()
-comment6.params=
-comment6.target=void\ RandomizeName()
-numComments=7
+comment0.params=
+comment0.target=void\ RandomizeName()
+numComments=1

@@ -1,5 +1,7 @@
+import java.util.*;
 
 public interface SkillsInterface
 {
-    //codegoes here lol
+    /* Sets up the skills from the stats depending on abilities */
+    public void setupSkills(List<DnDStat> stats);
 }
